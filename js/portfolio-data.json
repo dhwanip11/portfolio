@@ -2,13 +2,13 @@
   "personalInfo": {
     "name": "Dhwani Nileshbhai Purohit",
     "title": "Computer Engineering Student",
-    "tagline": "Building Intelligent Cloud Solutions",
+    "tagline": "",
     "location": "Paderborn, Germany",
     "email": "dhwanipurohit4@gmail.com",
     "phone": "+49 15565822600",
     "social": {
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/dhwanin-purohit",
+      "github": "https://github.com/dhwani-purohit",
+      "linkedin": "dhwanin-purohit",
       "twitter": "",
       "medium": ""
     },
@@ -25,7 +25,7 @@
       "Led cloud-to-cloud data migration pipelines at TCS",
       "Developed Doppler-aware PLL system during ISRO internship",
       "Built IoT-based Smart Stove Safety System",
-      "Google Cloud Associate Cloud Engineer certified"
+      "Triple certified in Google Cloud and AWS"
     ]
   },
   
@@ -170,7 +170,7 @@
       "categories": ["IoT", "Embedded"],
       "githubUrl": null,
       "demoUrl": null,
-      "icon": "sensors",
+      "icon": "🔥",
       "status": "Completed",
       "statusColor": "green"
     }
@@ -181,25 +181,31 @@
       "id": 1,
       "name": "Google Cloud Associate Cloud Engineer",
       "issuer": "Google Cloud",
-      "issueDate": "2024",
-      "credentialUrl": "",
-      "skills": ["Google Cloud Platform", "Cloud Engineering"]
+      "issueDate": "April 07, 2024",
+      "expiryDate": "April 07, 2027",
+      "credentialUrl": "https://www.credly.com/badges/ac17e89f-3ac9-4d7f-8b29-8aea970fbcfe/public_url",
+      "skills": ["Google Cloud Platform", "Cloud Engineering"],
+      "description": "Demonstrates ability to deploy applications, monitor operations, and manage enterprise solutions on Google Cloud Platform"
     },
     {
       "id": 2,
       "name": "Google Professional Cloud Architect",
       "issuer": "Google Cloud",
-      "issueDate": "In Progress",
-      "credentialUrl": "",
-      "skills": ["Cloud Architecture"]
+      "issueDate": "May 12, 2024",
+      "expiryDate": "May 12, 2026",
+      "credentialUrl": "https://www.credly.com/badges/ac3cfe9d-95e0-4f90-8137-f9cfd2f1e564/public_url",
+      "skills": ["Cloud Architecture", "Solution Design", "Infrastructure Management"],
+      "description": "Validates expertise in designing, developing, and managing robust, secure, scalable, and dynamic cloud architecture solutions"
     },
     {
       "id": 3,
       "name": "AWS Developer Associate",
       "issuer": "Amazon Web Services",
-      "issueDate": "In Progress",
-      "credentialUrl": "",
-      "skills": ["AWS", "Cloud Development"]
+      "issueDate": "May 23, 2024",
+      "expiryDate": "May 23, 2027",
+      "credentialUrl": "https://www.credly.com/badges/0cb5f1f3-16db-462f-b0c6-acc758ba021f/public_url",
+      "skills": ["AWS", "Cloud Development", "Application Development"],
+      "description": "Demonstrates proficiency in developing, deploying, and debugging cloud-based applications using AWS services"
     }
   ],
   
