@@ -221,6 +221,25 @@ function renderProjects(projects) {
           </span>
           <span class="text-xs text-gray-500">${project.duration}</span>
         </div>
+        
+        ${project.githubUrl || project.demoUrl ? `
+          <div class="flex gap-2 mt-4">
+            ${project.githubUrl ? `
+              <a href="${project.githubUrl}" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 inline-flex items-center justify-center gap-2 px-3 py-2 bg-[#0d1117] border border-[#30363d] rounded text-xs text-gray-300 hover:border-[#a371f7] hover:text-[#a371f7] transition-all">
+                <span class="material-symbols-outlined text-base">code</span>
+                <span>GitHub</span>
+              </a>
+            ` : ''}
+            ${project.demoUrl ? `
+              <a href="${project.demoUrl}" target="_blank" rel="noopener noreferrer" 
+                 class="flex-1 inline-flex items-center justify-center gap-2 px-3 py-2 bg-[#a371f7] border border-[#a371f7] rounded text-xs text-white hover:bg-[#9353e6] transition-all">
+                <span class="material-symbols-outlined text-base">open_in_new</span>
+                <span>Demo</span>
+              </a>
+            ` : ''}
+          </div>
+        ` : ''}
       </div>
     `)
     .join('');
@@ -250,7 +269,7 @@ function renderCertificates(certifications) {
           </div>
         </div>
         
-        <div class="flex flex-wrap gap-2">
+        <div class="flex flex-wrap gap-2 mb-4">
           ${cert.skills.map(skill => `
             <span class="px-2 py-1 bg-[#161b22] border border-[#30363d] rounded text-xs text-gray-300">
               ${skill}
@@ -260,9 +279,9 @@ function renderCertificates(certifications) {
         
         ${cert.credentialUrl ? `
           <a href="${cert.credentialUrl}" target="_blank" rel="noopener noreferrer" 
-             class="mt-4 inline-flex items-center gap-2 text-sm text-[#a371f7] hover:text-[#9353e6] transition-colors">
+             class="mt-2 inline-flex items-center justify-center gap-2 w-full px-4 py-2 bg-[#a371f7] border border-[#a371f7] rounded text-sm text-white hover:bg-[#9353e6] transition-all">
+            <span class="material-symbols-outlined text-base">verified</span>
             <span>View Credential</span>
-            <span class="material-symbols-outlined text-base">open_in_new</span>
           </a>
         ` : ''}
       </div>
