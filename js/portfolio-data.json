@@ -1,0 +1,210 @@
+{
+  "personalInfo": {
+    "name": "Dhwani Nileshbhai Purohit",
+    "title": "Computer Engineering Student",
+    "tagline": "Building Intelligent Cloud Solutions",
+    "location": "Paderborn, Germany",
+    "email": "dhwanipurohit4@gmail.com",
+    "phone": "+49 15565822600",
+    "social": {
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/dhwanin-purohit",
+      "twitter": "",
+      "medium": ""
+    },
+    "cvUrl": ""
+  },
+  
+  "about": {
+    "bio": [
+      "I am a motivated and detail-oriented engineer with a background in Electronics and Communication Engineering, currently pursuing my Master's in Computer Engineering at Paderborn University, Germany. I am driven by a strong passion for technology, innovation, and building solutions that address real-world challenges.",
+      "I previously served as a Migration Analyst at Tata Consultancy Services (TCS), where I applied my technical and analytical skills to deliver efficient, scalable cloud migration solutions. In addition, I completed a research internship at the Space Applications Centre (ISRO), contributing to the development of advanced satellite communication systems.",
+      "My current academic focus lies in advanced computing, cloud technologies, and intelligent systems. I am actively pursuing the Google Professional Cloud Architect Certification and am particularly interested in bridging embedded systems with cloud computing to create impactful, real-world innovations."
+    ],
+    "keyAchievements": [
+      "Led cloud-to-cloud data migration pipelines at TCS",
+      "Developed Doppler-aware PLL system during ISRO internship",
+      "Built IoT-based Smart Stove Safety System",
+      "Google Cloud Associate Cloud Engineer certified"
+    ]
+  },
+  
+  "education": [
+    {
+      "degree": "Master of Science",
+      "field": "Computer Engineering",
+      "institution": "Paderborn University",
+      "location": "Paderborn, Germany",
+      "duration": "2025 – Present",
+      "gpa": "",
+      "activities": "",
+      "image": null,
+      "courses": [
+        "Advance Computer Architecture",
+        "Data Driven Engineering",
+        "Advance System Theory"
+      ]
+    },
+    {
+      "degree": "Bachelor of Engineering",
+      "field": "Electronics and Communication Engineering",
+      "institution": "Government Engineering College, Gandhinagar",
+      "location": "Gujarat, India",
+      "duration": "Jun 2019 – Jul 2023",
+      "gpa": "8.77/10.0",
+      "activities": "",
+      "image": null,
+      "courses": [
+        "Digital Signal Processing",
+        "Control Systems",
+        "Signal and Systems",
+        "Digital Image and Video Processing",
+        "Wireless Communication",
+        "VLSI Design"
+      ]
+    }
+  ],
+  
+  "interests": [
+    "Bharatanatyam Classical Dance",
+    "Drawing and Art",
+    "Trekking",
+    "Music"
+  ],
+  
+  "currentFocus": [
+    "Cloud Architecture",
+    "Advanced Computing",
+    "Intelligent Systems",
+    "Cloud Migration Optimization"
+  ],
+  
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Tata Consultancy Services (TCS)",
+      "position": "Migration Analyst",
+      "duration": "Nov 2023 – Nov 2025",
+      "location": "Gujarat, India",
+      "type": "Full-time",
+      "current": false,
+      "responsibilities": [
+        "Spearheaded cloud-to-cloud data migrations and optimized migration pipelines for performance and scalability",
+        "Ensured data integrity through schema analysis, mapping, validation, and normalization",
+        "Developed testing and troubleshooting strategies to minimize downtime and data loss",
+        "Collaborated with cross-functional teams while maintaining compliance with data security standards"
+      ],
+      "technologies": ["Google Cloud Platform", "AWS", "SQL", "Data Migration"]
+    },
+    {
+      "id": 2,
+      "company": "Space Applications Centre, ISRO",
+      "position": "Research Intern",
+      "duration": "Feb 2023 – Jul 2023",
+      "location": "Gujarat, India",
+      "type": "Internship",
+      "current": false,
+      "responsibilities": [
+        "Designed signal processing system for down conversion and data recovery using DSP techniques",
+        "Developed phase-locked loop (PLL) to track Doppler shift for positioning",
+        "Implemented carrier and symbol tracking algorithms",
+        "Improved positioning accuracy using Doppler-based estimation"
+      ],
+      "technologies": ["Digital Signal Processing", "MATLAB", "Simulink"]
+    },
+    {
+      "id": 3,
+      "company": "InfiniumDevIO LLP",
+      "position": "IoT Arduino Intern",
+      "duration": "Jun 2022 – Jul 2022",
+      "location": "Gujarat, India",
+      "type": "Internship",
+      "current": false,
+      "responsibilities": [
+        "Developed sensor-based IoT product using Arduino Uno",
+        "Enabled real-time environmental sensing and automation",
+        "Improved system responsiveness using sensor-driven logic"
+      ],
+      "technologies": ["Arduino", "IoT", "Embedded Systems"]
+    }
+  ],
+  
+  "skills": {
+    "technical": [
+      "Java",
+      "C",
+      "SQL",
+      "Python",
+      "Verilog",
+      "VHDL",
+      "HTML",
+      "CSS"
+    ],
+    "categories": [
+      {
+        "name": "Cloud & Tools",
+        "skills": ["Google Cloud Platform", "AWS", "MATLAB", "Simulink", "Vivado", "Jupyter"]
+      },
+      {
+        "name": "Programming",
+        "skills": ["Java", "C", "Python", "SQL"]
+      },
+      {
+        "name": "Hardware Description",
+        "skills": ["Verilog", "VHDL"]
+      },
+      {
+        "name": "Web Development",
+        "skills": ["HTML", "CSS"]
+      }
+    ]
+  },
+  
+  "projects": [
+    {
+      "id": 1,
+      "title": "Smart Stove Safety System (IoT-Based)",
+      "description": "Developed a sensor-based stove safety system to detect gas leaks and automatically shut off the stove while triggering alerts. Improved household safety using real-time IoT automation.",
+      "duration": "2022",
+      "technologies": ["Arduino Uno", "IoT", "Sensors", "Embedded Systems"],
+      "categories": ["IoT", "Embedded"],
+      "githubUrl": null,
+      "demoUrl": null,
+      "icon": "sensors",
+      "status": "Completed",
+      "statusColor": "green"
+    }
+  ],
+  
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Google Cloud Associate Cloud Engineer",
+      "issuer": "Google Cloud",
+      "issueDate": "2024",
+      "credentialUrl": "",
+      "skills": ["Google Cloud Platform", "Cloud Engineering"]
+    },
+    {
+      "id": 2,
+      "name": "Google Professional Cloud Architect",
+      "issuer": "Google Cloud",
+      "issueDate": "In Progress",
+      "credentialUrl": "",
+      "skills": ["Cloud Architecture"]
+    },
+    {
+      "id": 3,
+      "name": "AWS Developer Associate",
+      "issuer": "Amazon Web Services",
+      "issueDate": "In Progress",
+      "credentialUrl": "",
+      "skills": ["AWS", "Cloud Development"]
+    }
+  ],
+  
+  "testimonials": [],
+  "blogPosts": [],
+  "leadership": [],
+  "gallery": []
+}

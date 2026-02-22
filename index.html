@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dhwani Purohit - Computer Engineering Student & Cloud Engineer Portfolio">
+  <title>Dhwani Purohit | Computer Engineering Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>☁️</text></svg>">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-[#0d1117] text-white font-inter">
+  
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="fixed inset-0 bg-[#0d1117] z-[9999] flex flex-col items-center justify-center">
+    <div class="text-center">
+      <p class="text-2xl font-bold text-white mb-2" id="loading-percentage">0%</p>
+      <p class="text-sm text-gray-400">Loading Portfolio...</p>
+    </div>
+    <div class="w-64 h-1 bg-[#30363d] rounded-full mt-6 overflow-hidden">
+      <div id="loading-progress-bar" class="h-full bg-gradient-to-r from-[#a371f7] to-[#d946ef] transition-all duration-300" style="width: 0%"></div>
+    </div>
+  </div>
+  
+  <!-- Fixed Navigation Header -->
+  <header id="main-header" class="fixed top-0 w-full z-50 transition-all duration-300 bg-[#0d1117]/80 backdrop-blur-md border-b border-[#30363d]">
+    <nav class="container mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      <div id="header-logo" class="text-lg sm:text-xl font-bold text-white tracking-tight">
+        Dhwani Purohit
+      </div>
+      
+      <a href="#contact" class="resume-btn relative inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium min-h-[44px] bg-[#a371f7] hover:bg-[#9353e6] text-white rounded-lg transition-all">
+        <span class="relative z-10">Get in Touch</span>
+      </a>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex items-center justify-center pt-20 px-4">
+    <div class="text-center max-w-4xl mx-auto">
+      <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 leading-tight">
+        Hi, I'm <span class="text-[#a371f7]">Dhwani</span>
+      </h1>
+      <p class="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8">
+        Building Intelligent Cloud Solutions
+      </p>
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto">
+        Computer Engineering student passionate about cloud architecture, data migration, and intelligent systems
+      </p>
+    </div>
+  </section>
+  
+  <!-- Mac-Style Window Section -->
+  <section id="mac-window" class="pb-24 sm:pb-32 md:pb-40">
+    <div class="lg:container lg:mx-auto px-4 sm:px-6">
+      
+      <!-- Mac Window -->
+      <div class="mac-window overflow-hidden border border-[#30363d] rounded-2xl">
+        
+        <!-- Window Chrome -->
+        <div class="window-chrome bg-[#0d1117] h-12 flex items-center justify-between px-4 border-b border-[#30363d]">
+          <div class="flex items-center gap-2">
+            <div class="w-3 h-3 rounded-full bg-[#f85149]"></div>
+            <div class="w-3 h-3 rounded-full bg-[#d29922]"></div>
+            <div class="w-3 h-3 rounded-full bg-[#3fb950]"></div>
+          </div>
+          <div class="text-sm text-gray-400 font-mono hidden sm:block">portfolio.dev</div>
+          <div class="w-20"></div>
+        </div>
+        
+        <!-- Tab Navigation -->
+        <div class="tab-navigation-wrapper bg-[#0d1117] flex items-center border-b border-[#30363d] overflow-x-auto">
+          <button class="tab-button active" data-tab="about">About</button>
+          <button class="tab-button" data-tab="experience">Experience</button>
+          <button class="tab-button" data-tab="projects">Projects</button>
+          <button class="tab-button" data-tab="certificates">Certificates</button>
+        </div>
+        
+        <!-- Tab Content -->
+        <div class="tab-content-container bg-[#161b22] p-6 md:p-12">
+          
+          <!-- About Tab -->
+          <div id="tab-about" class="tab-content active">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-8">
+              <div class="lg:col-span-3 space-y-6">
+                <h2 class="text-3xl font-bold text-white mb-6">About Me</h2>
+                <div id="about-bio" class="space-y-4 text-gray-300 leading-relaxed"></div>
+                
+                <div class="mt-8">
+                  <h3 class="text-xl font-semibold text-white mb-4">Key Achievements</h3>
+                  <ul id="achievements-list" class="space-y-3"></ul>
+                </div>
+              </div>
+              
+              <div class="lg:col-span-2 space-y-6">
+                <div class="bg-[#0d1117] border border-[#30363d] rounded-lg p-6 hover:border-[#a371f7] transition-colors">
+                  <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[#a371f7]">school</span>
+                    Education
+                  </h3>
+                  <div id="education-content"></div>
+                </div>
+                
+                <div class="bg-[#0d1117] border border-[#30363d] rounded-lg p-6 hover:border-[#a371f7] transition-colors">
+                  <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[#a371f7]">psychology</span>
+                    Current Focus
+                  </h3>
+                  <div id="focus-content" class="flex flex-wrap gap-2"></div>
+                </div>
+                
+                <div class="bg-[#0d1117] border border-[#30363d] rounded-lg p-6 hover:border-[#a371f7] transition-colors">
+                  <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-[#a371f7]">favorite</span>
+                    Interests
+                  </h3>
+                  <div id="interests-content" class="flex flex-wrap gap-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Experience Tab -->
+          <div id="tab-experience" class="tab-content hidden">
+            <h2 class="text-3xl font-bold text-white mb-8">Professional Experience</h2>
+            <div id="experience-timeline" class="space-y-8"></div>
+          </div>
+          
+          <!-- Projects Tab -->
+          <div id="tab-projects" class="tab-content hidden">
+            <h2 class="text-3xl font-bold text-white mb-8">Projects</h2>
+            <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+          </div>
+          
+          <!-- Certificates Tab -->
+          <div id="tab-certificates" class="tab-content hidden">
+            <h2 class="text-3xl font-bold text-white mb-8">Certifications</h2>
+            <div id="certificates-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-[#0d1117]">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+            Let's <span class="text-[#a371f7]">Connect</span>
+          </h2>
+          <p class="text-lg text-gray-300 mb-8">
+            I'm open to opportunities in cloud engineering, data migration, and intelligent systems. Let's build something amazing together!
+          </p>
+          
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-4">Get in Touch</h3>
+            <div class="flex flex-wrap gap-4">
+              <a href="mailto:dhwanipurohit4@gmail.com" 
+                 class="flex items-center gap-2 bg-[#161b22] border border-[#30363d] rounded-lg px-4 py-3 hover:border-[#a371f7] transition-all">
+                <span class="material-symbols-outlined text-[#a371f7]">mail</span>
+                <span class="text-sm">Email</span>
+              </a>
+              
+              <a href="tel:+4915565822600" 
+                 class="flex items-center gap-2 bg-[#161b22] border border-[#30363d] rounded-lg px-4 py-3 hover:border-[#a371f7] transition-all">
+                <span class="material-symbols-outlined text-[#a371f7]">phone</span>
+                <span class="text-sm">Phone</span>
+              </a>
+              
+              <a href="https://www.linkedin.com/in/dhwanin-purohit" target="_blank" rel="noopener noreferrer"
+                 class="flex items-center gap-2 bg-[#161b22] border border-[#30363d] rounded-lg px-4 py-3 hover:border-[#a371f7] transition-all">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="#0A66C2">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <span class="text-sm">LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-[#161b22]/50 backdrop-blur-md border border-[#30363d] rounded-lg p-8">
+          <form id="contact-form" class="space-y-6">
+            <div>
+              <label for="name" class="text-xs uppercase text-gray-400 mb-2 block">Name</label>
+              <input type="text" id="name" name="name" required 
+                     class="w-full bg-[#0d1117] border border-[#30363d] rounded px-4 py-3 text-white focus:border-[#a371f7] focus:outline-none transition-colors"
+                     placeholder="Your name" />
+            </div>
+            
+            <div>
+              <label for="email" class="text-xs uppercase text-gray-400 mb-2 block">Email</label>
+              <input type="email" id="email" name="email" required 
+                     class="w-full bg-[#0d1117] border border-[#30363d] rounded px-4 py-3 text-white focus:border-[#a371f7] focus:outline-none transition-colors"
+                     placeholder="your.email@example.com" />
+            </div>
+            
+            <div>
+              <label for="message" class="text-xs uppercase text-gray-400 mb-2 block">Message</label>
+              <textarea id="message" name="message" required rows="5"
+                        class="w-full bg-[#0d1117] border border-[#30363d] rounded px-4 py-3 text-white focus:border-[#a371f7] focus:outline-none transition-colors resize-none"
+                        placeholder="Tell me about your opportunity..."></textarea>
+            </div>
+            
+            <button type="submit" class="w-full bg-[#a371f7] text-white py-3 rounded font-medium hover:bg-[#9353e6] transition-colors min-h-[44px]">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-[#0d1117] border-t border-[#30363d] py-8">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="text-center text-gray-400 text-sm">
+        © 2026 Dhwani Purohit. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
