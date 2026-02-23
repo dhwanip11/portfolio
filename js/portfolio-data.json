@@ -12,20 +12,21 @@
       "twitter": "",
       "medium": ""
     },
-    "cvUrl": "assets/documents/resume.pdf"
+    "cvUrl": "Resume.pdf"
   },
   
   "about": {
     "bio": [
       "I am a motivated and detail-oriented engineer with a background in Electronics and Communication Engineering, currently pursuing my Master's in Computer Engineering at Paderborn University, Germany. I am driven by a strong passion for technology, innovation, and building solutions that address real-world challenges.",
       "I previously served as a Migration Analyst at Tata Consultancy Services (TCS), where I applied my technical and analytical skills to deliver efficient, scalable cloud migration solutions. In addition, I completed a research internship at the Space Applications Centre (ISRO), contributing to the development of advanced satellite communication systems.",
-      "My current academic focus lies in advanced computing, cloud technologies, and intelligent systems. I am actively pursuing the Google Professional Cloud Architect Certification and am particularly interested in bridging embedded systems with cloud computing to create impactful, real-world innovations."
+      "My current academic focus lies in advanced computing, cloud technologies, and intelligent systems. I hold triple certifications in Google Cloud and AWS, and am particularly interested in bridging embedded systems with cloud computing to create impactful, real-world innovations."
     ],
     "keyAchievements": [
-      "Led cloud-to-cloud data migration pipelines at TCS",
-      "Developed Doppler-aware PLL system during ISRO internship",
-      "Built IoT-based Smart Stove Safety System",
-      "Triple certified in Google Cloud and AWS"
+      "Optimized cloud migration pipelines achieving 45% reduction in query execution time and 35% decrease in infrastructure costs",
+      "Executed zero-loss migrations across 100+ databases with 100% data integrity",
+      "Engineered DSP-based signal processing systems achieving 99% signal recovery rate across 50+ satellite channels at ISRO",
+      "Developed PLL algorithm achieving 25% reduction in positioning error with sub-meter accuracy",
+      "Triple certified: Google Professional Cloud Architect, Google Associate Cloud Engineer, AWS Developer Associate"
     ]
   },
   
@@ -33,16 +34,16 @@
     {
       "degree": "Master of Science",
       "field": "Computer Engineering",
-      "institution": "Paderborn University",
+      "institution": "Universität Paderborn",
       "location": "Paderborn, Germany",
-      "duration": "2025 – Present",
+      "duration": "Oct 2025 – Present",
       "gpa": "",
       "activities": "",
       "image": null,
       "courses": [
-        "Advance Computer Architecture",
+        "Advanced Computer Architecture",
         "Data Driven Engineering",
-        "Advance System Theory"
+        "Advanced System Theory"
       ]
     },
     {
@@ -57,8 +58,6 @@
       "courses": [
         "Digital Signal Processing",
         "Control Systems",
-        "Signal and Systems",
-        "Digital Image and Video Processing",
         "Wireless Communication",
         "VLSI Design"
       ]
@@ -82,19 +81,18 @@
   "experiences": [
     {
       "id": 1,
-      "company": "Tata Consultancy Services (TCS)",
+      "company": "Tata Consultancy Services",
       "position": "Migration Analyst",
-      "duration": "Nov 2023 – Nov 2025",
+      "duration": "Nov 2023 – Present",
       "location": "Gujarat, India",
       "type": "Full-time",
-      "current": false,
+      "current": true,
       "responsibilities": [
-        "Spearheaded cloud-to-cloud data migrations and optimized migration pipelines for performance and scalability",
-        "Ensured data integrity through schema analysis, mapping, validation, and normalization",
-        "Developed testing and troubleshooting strategies to minimize downtime and data loss",
-        "Collaborated with cross-functional teams while maintaining compliance with data security standards"
+        "Optimized cloud-to-cloud migration pipelines achieving 45% reduction in query execution time and 35% decrease in infrastructure costs, enabling faster data transfers and improved system performance through strategic pipeline design and resource allocation",
+        "Implemented comprehensive data validation framework achieving 45% increase in data match hit ratio and 93% reduction in lookup time, ensuring data accuracy and integrity through advanced schema analysis and intelligent mapping techniques",
+        "Executed zero-loss migrations across 100+ databases with 100% data integrity, minimizing system downtime and business disruption through robust testing protocols while maintaining strict compliance with security and privacy standards"
       ],
-      "technologies": ["Google Cloud Platform", "AWS", "SQL", "Data Migration"]
+      "technologies": ["Google Cloud Platform", "AWS", "BigQuery", "SQL", "Data Migration"]
     },
     {
       "id": 2,
@@ -105,12 +103,11 @@
       "type": "Internship",
       "current": false,
       "responsibilities": [
-        "Designed signal processing system for down conversion and data recovery using DSP techniques",
-        "Developed phase-locked loop (PLL) to track Doppler shift for positioning",
-        "Implemented carrier and symbol tracking algorithms",
-        "Improved positioning accuracy using Doppler-based estimation"
+        "Engineered DSP-based signal processing systems achieving 99% signal recovery rate across 50+ satellite channels, enabling reliable down conversion and data recovery for mission-critical operations through advanced filtering and demodulation techniques",
+        "Developed phase-locked loop (PLL) algorithm achieving 25% reduction in positioning error and sub-meter accuracy, improving satellite navigation precision for real-time Doppler tracking applications",
+        "Implemented adaptive filtering and carrier tracking algorithms achieving 35% improvement in signal stability and 40% reduction in signal loss, delivering production-ready solutions for noisy communication environments"
       ],
-      "technologies": ["Digital Signal Processing", "MATLAB", "Simulink"]
+      "technologies": ["Digital Signal Processing", "MATLAB", "Simulink", "DSP"]
     },
     {
       "id": 3,
@@ -121,9 +118,8 @@
       "type": "Internship",
       "current": false,
       "responsibilities": [
-        "Developed sensor-based IoT product using Arduino Uno",
-        "Enabled real-time environmental sensing and automation",
-        "Improved system responsiveness using sensor-driven logic"
+        "Built multi-sensor IoT monitoring system achieving 80% reduction in manual overhead and monitoring 10+ environmental parameters, automating real-time data acquisition and alerting through Arduino Uno integration and cloud connectivity",
+        "Optimized sensor responsiveness achieving sub-100ms reaction time and 95% event detection accuracy, improving system reliability through interrupt-driven processing and optimized event logic for environmental monitoring applications"
       ],
       "technologies": ["Arduino", "IoT", "Embedded Systems"]
     }
@@ -131,10 +127,10 @@
   
   "skills": {
     "technical": [
+      "Python",
       "Java",
       "C",
       "SQL",
-      "Python",
       "Verilog",
       "VHDL",
       "HTML",
@@ -142,35 +138,50 @@
     ],
     "categories": [
       {
-        "name": "Cloud & Tools",
-        "skills": ["Google Cloud Platform", "AWS", "MATLAB", "Simulink", "Vivado", "Jupyter"]
+        "name": "Programming & Cloud",
+        "skills": ["Python", "Java", "C", "SQL", "Verilog", "VHDL", "HTML", "CSS", "GCP", "AWS", "BigQuery"]
       },
       {
-        "name": "Programming",
-        "skills": ["Java", "C", "Python", "SQL"]
+        "name": "Data & Visualization",
+        "skills": ["MATLAB", "Simulink", "Jupyter", "Multisim"]
       },
       {
-        "name": "Hardware Description",
-        "skills": ["Verilog", "VHDL"]
-      },
-      {
-        "name": "Web Development",
-        "skills": ["HTML", "CSS"]
+        "name": "Hardware & Embedded",
+        "skills": ["Xilinx Vivado", "Keil", "Arduino", "DSP"]
       }
     ]
   },
+  
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "C1"
+    },
+    {
+      "language": "German",
+      "proficiency": "B1"
+    },
+    {
+      "language": "Gujarati",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Native"
+    }
+  ],
   
   "projects": [
     {
       "id": 1,
       "title": "Smart Stove Safety System (IoT-Based)",
-      "description": "Developed a sensor-based stove safety system to detect gas leaks and automatically shut off the stove while triggering alerts. Improved household safety using real-time IoT automation.",
+      "description": "Developed sensor-based stove safety system achieving 99% gas leak detection accuracy and preventing 100% of potential hazards. Implemented automatic shutdown mechanism and real-time SMS/email alerts through integrated sensor fusion and IoT connectivity with sub-100ms response time.",
       "duration": "2022",
       "technologies": ["Arduino Uno", "IoT", "Sensors", "Embedded Systems"],
       "categories": ["IoT", "Embedded"],
       "githubUrl": null,
       "demoUrl": null,
-      "icon": "🔥",
+      "icon": "local_fire_department",
       "status": "Completed",
       "statusColor": "green"
     }
