@@ -192,7 +192,7 @@
   "duration": "2026",
   "technologies": ["FastAPI", "Python", "Tailwind CSS", "Chart.js", "JSON", "Render"],
   "categories": ["Web Development", "Data Analytics"],
-  "githubUrl": "https://github.com/dhwani-purohit/Expense-Tracker-Web-App",
+  "githubUrl": "https://github.com/dhwanip11/student-expense-tracker",
   "demoUrl": "https://student-expense-tracker-ygur.onrender.com/?view=expenses",
   "icon": "analytics",
   "status": "Completed",
