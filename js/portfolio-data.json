@@ -184,7 +184,21 @@
       "icon": "local_fire_department",
       "status": "Completed",
       "statusColor": "green"
+    },
+    {
+      "id": 2,
+      "title": "Student Expense Tracker",
+      "description": "Developed a web-based application for students to track their expenses and manage budgets effectively. Implemented features for expense categorization, reporting, and data visualization.",
+      "duration": "2026",
+      "technologies": ["Arduino Uno", "IoT", "Sensors", "Embedded Systems"],
+      "categories": ["IoT", "Embedded"],
+      "githubUrl": null,
+      "demoUrl": null,
+      "icon": "local_fire_department",
+      "status": "Completed",
+      "statusColor": "green"
     }
+
   ],
   
   "certifications": [
